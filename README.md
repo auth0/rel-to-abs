@@ -2,15 +2,15 @@ Given an HTML source, it will convert any URL on links, images, scripts, etc to 
 
 ## Install
 
-		npm install rel-to-abs
+	npm install rel-to-abs
 
 ## Usage
 
-		var converter = require('rel-to-abs');
+	var converter = require('rel-to-abs');
 
-		var converted = converter.convert('<img src="foo.png">', 'http://mysite.com');
+	var converted = converter.convert('<img src="foo.png">', 'http://mysite.com');
 
-		## <img src="http://mysite.com">
+	converted == <img src="http://mysite.com/foo.png">
 
 Credits
 
