@@ -1,3 +1,5 @@
+// Credit: http://stackoverflow.com/questions/7544550/javascript-regex-to-change-all-relative-urls-to-absolute
+
 var urlParser = require('url');
 
 exports.convert = function(html, base_url) {
