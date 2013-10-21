@@ -1,6 +1,6 @@
 {
   "name": "rel-to-abs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Convert relative URLs to absolute URLs given an HTML source",
   "main": "index.js",
   "scripts": {
