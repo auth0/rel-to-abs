@@ -25,5 +25,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/auth0/rel-to-abs/issues"
+  },
+  "dependencies": {
+    "cheerio": "~0.12.3",
+    "url-join": "0.0.1"
   }
 }
